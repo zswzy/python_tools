@@ -1,9 +1,8 @@
 
-
 import os
 import csv
 
-filepath_dense= r"C:\Users\Zeyuan\Desktop\sparse csv\trajactory_log.csv"
+# filepath_dense= r"C:\Users\Zeyuan\Desktop\sparse csv\trajactory_log.csv"
 filepath_dense = input("请拖入原始文件： ")
 if filepath_dense[0] == '"' or filepath_dense[0] == "'":
     filepath_dense = filepath_dense[1: len(filepath_dense)-1]
